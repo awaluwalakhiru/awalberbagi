@@ -1,0 +1,33 @@
+/*Mobile version*/
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+    min-height: 86vh;
+    max-width: 99vw;
+}
+
+.card, .akordion {
+	border-radius: 10px;
+}
+span.intermezo {
+	font-size: 14px;
+}
+
+/*Tablet version*/
+@media (min-width: 768px) {
+	.container {
+		min-height: 86vh;
+		max-width: 99vw;
+	}
+}
+
+/*Desktop version*/
+@media (min-width: 992px) {
+	.container {
+		min-height: 86vh;
+		max-width: 99vw;
+	}
+}
